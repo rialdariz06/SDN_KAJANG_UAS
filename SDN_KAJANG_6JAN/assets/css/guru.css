@@ -1,0 +1,79 @@
+/* General styles */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+main {
+  padding: 20px;
+}
+
+
+/* Section styles */
+.teacher-list {
+  text-align: center;
+  padding: 20px;
+}
+
+.teacher-list h1 {
+  margin-bottom: 20px;
+  color: #4caf50;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Card container */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Individual card */
+.card {
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  border-radius: 15px;
+  width: 300px;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1),
+    -6px -6px 12px rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.2),
+    -6px -6px 16px rgba(255, 255, 255, 0.8);
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.card p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+.card p strong {
+  color: #4caf50;
+  font-weight: 600;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  margin-top: 20px;
+}
